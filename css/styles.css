@@ -23,6 +23,10 @@ body{
     color: var(--grey)
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /* --------------LATERAL-----------------*/
 .panel {
@@ -231,7 +235,7 @@ body{
 
 
 @media screen and (min-width: 730px) {
-    body{
+    .main-body{
         display: grid;
         grid-template-columns: minmax(150px, 250px) 1fr;
         grid-template-areas: "panel main";
@@ -348,5 +352,9 @@ body{
 
     .info-title{
         color: var(--off-white);
+    }
+
+    .I_am .dynamic li, .I_am .static{
+        font-size: 3.2rem;
     }
 }
